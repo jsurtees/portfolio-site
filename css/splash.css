@@ -4,7 +4,7 @@
 
 .small-splash {
   display: block;
-  background-image: url(../../tiles/background-80.jpg);
+  background-image: url(../tiles/background-80.jpg);
   min-height: 20em;
 }
 
@@ -24,7 +24,7 @@
   }
 
   .splash {
-    background-image: url(../../tiles/background-80.jpg);
+    background-image: url(../tiles/background-80.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }

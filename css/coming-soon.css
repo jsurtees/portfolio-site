@@ -1,7 +1,7 @@
 html {
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
-  background-image: url(../coming-soon-images/background-100.jpg);
+  background-image: url(coming-soon-images/background-100.jpg);
   background-size: auto;
   background-repeat: repeat-y;
   overflow: hidden;

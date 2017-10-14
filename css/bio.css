@@ -31,7 +31,7 @@
   }
 
   .self-gif {
-    background-image: url(../../images/self-gif.gif);
+    background-image: url(../images/self-gif.gif);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
@@ -62,7 +62,7 @@
   }
 
   .self-gif {
-    background-image: url(../../images/self-gif.gif);
+    background-image: url(../images/self-gif.gif);
   }
 
   .bio {
