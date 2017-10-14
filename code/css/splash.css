@@ -1,0 +1,304 @@
+.splash {
+  display: none;
+}
+
+.small-splash {
+  display: block;
+  background-image: url(../../tiles/background-80.jpg);
+  min-height: 20em;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .splash {
+    display: block;
+  }
+
+  .small-splash {
+    display: none;
+  }
+
+  .splash {
+    background-image: url(../../tiles/background-80.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .rows {
+    z-index: 900;
+  }
+
+  .pic {
+    transition: transform 2s ease, box-shadow 2s ease, filter 2s ease, z-index 2s ease;
+    position: relative;
+    transform: scale(0.96, 0.96);
+    z-index: 999;
+    /*box-shadow: 0px 0px 0.5px 0px #EBBE50;*/*/
+    backface-visibility: hidden;
+    /*border: 0.5px solid #EBBE50;*/
+  }
+
+  .pic:hover {
+    transition: transform 0.06s, box-shadow 0.06s, filter 0.06s, z-index 0s;
+    transition: 0.06s;
+    z-index: 0;
+    /*box-shadow: 0px 0px 20px 0px #1C2323;*/
+    filter: brightness(105%) contrast(115%);
+    /*border: 1px solid #EBBE50;*/
+  }
+
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5,
+  .pic6,
+  .pic7,
+  .pic8,
+  .pic9,
+  .pic10,
+  .pic11,
+  .pic12,
+  .pic13,
+  .pic14,
+  .pic15,
+  .pic28,
+  .pic29,
+  .pic42,
+  .pic43,
+  .pic56,
+  .pic57,
+  .pic70,
+  .pic71,
+  .pic84,
+  .pic85,
+  .pic98,
+  .pic99,
+  .pic100,
+  .pic101,
+  .pic102,
+  .pic103,
+  .pic104,
+  .pic105,
+  .pic106,
+  .pic107,
+  .pic108,
+  .pic109,
+  .pic110,
+  .pic111,
+  .pic112 {
+    transform: scale(0.98, 0.98);
+    /*box-shadow: 0px 0px 2px 0px pink;*/
+  }
+
+  .pic16,
+  .pic17,
+  .pic18,
+  .pic19,
+  .pic20,
+  .pic21,
+  .pic22,
+  .pic23,
+  .pic24,
+  .pic25,
+  .pic26,
+  .pic27,
+  .pic30,
+  .pic41,
+  .pic44,
+  .pic55,
+  .pic58,
+  .pic69,
+  .pic72,
+  .pic83,
+  .pic86,
+  .pic87,
+  .pic88,
+  .pic89,
+  .pic90,
+  .pic91,
+  .pic92,
+  .pic93,
+  .pic94,
+  .pic95,
+  .pic96,
+  .pic97 {
+    transform: scale(0.98, 0.98);
+    /*box-shadow: 0px 0px 2px 0.5px pink;*/
+  }
+
+  .pic31,
+  .pic32,
+  .pic33,
+  .pic34,
+  .pic35,
+  .pic36,
+  .pic37,
+  .pic38,
+  .pic39,
+  .pic40,
+  .pic45,
+  .pic54,
+  .pic59,
+  .pic68,
+  .pic73,
+  .pic74,
+  .pic75,
+  .pic76,
+  .pic77,
+  .pic78,
+  .pic79,
+  .pic80,
+  .pic81,
+  .pic82 {
+    transform: scale(0.97, 0.97);
+  }
+
+  .img-holder {
+    width: 7.1429%;
+    height: 7.139%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .rows {
+    z-index: 900;
+  }
+
+  .pic {
+    transition: transform 2s ease, box-shadow 2s ease, filter 2s ease, border-radius 2s ease, z-index 2s ease;
+    position: relative;
+    transform: scale(0.96, 0.96);
+    z-index: 100;
+    /*box-shadow: 0px 0px 0.5px 0px #EBBE50;*/
+    backface-visibility: hidden;
+  }
+
+  .pic:hover {
+    transition: transform 0.06s, box-shadow 0.06s, filter 0.06s, border-radius 0.06s, z-index 0s;
+    transition: 0.06s;
+    z-index: 1000;
+    /*box-shadow: 0px 0px 10px 0px #1C2323;*/
+    border-radius: 2px;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5,
+  .pic6,
+  .pic7,
+  .pic8,
+  .pic9,
+  .pic10,
+  .pic11,
+  .pic12,
+  .pic13,
+  .pic14,
+  .pic15,
+  .pic28,
+  .pic29,
+  .pic42,
+  .pic43,
+  .pic56,
+  .pic57,
+  .pic70,
+  .pic71,
+  .pic84,
+  .pic85,
+  .pic98,
+  .pic99,
+  .pic100,
+  .pic101,
+  .pic102,
+  .pic103,
+  .pic104,
+  .pic105,
+  .pic106,
+  .pic107,
+  .pic108,
+  .pic109,
+  .pic110,
+  .pic111,
+  .pic112 {
+    transform: scale(0.99, 0.99);
+    /*box-shadow: 0px 0px 2px 0px pink;*/
+  }
+
+  .pic16,
+  .pic17,
+  .pic18,
+  .pic19,
+  .pic20,
+  .pic21,
+  .pic22,
+  .pic23,
+  .pic24,
+  .pic25,
+  .pic26,
+  .pic27,
+  .pic30,
+  .pic41,
+  .pic44,
+  .pic55,
+  .pic58,
+  .pic69,
+  .pic72,
+  .pic83,
+  .pic86,
+  .pic87,
+  .pic88,
+  .pic89,
+  .pic90,
+  .pic91,
+  .pic92,
+  .pic93,
+  .pic94,
+  .pic95,
+  .pic96,
+  .pic97 {
+    transform: scale(0.98, 0.98);
+    /*box-shadow: 0px 0px 2px 0.5px pink;*/
+  }
+
+  .pic31,
+  .pic32,
+  .pic33,
+  .pic34,
+  .pic35,
+  .pic36,
+  .pic37,
+  .pic38,
+  .pic39,
+  .pic40,
+  .pic45,
+  .pic54,
+  .pic59,
+  .pic68,
+  .pic73,
+  .pic74,
+  .pic75,
+  .pic76,
+  .pic77,
+  .pic78,
+  .pic79,
+  .pic80,
+  .pic81,
+  .pic82 {
+    transform: scale(0.97, 0.97);
+  }
+
+  .img-holder {
+    width: 7.1429%;
+    height: 7.139%;
+  }
+
+}

@@ -1,0 +1,33 @@
+.email {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.contact {
+  height: 90.9vh;
+}
+
+.contact-holder {
+  margin-left: 1em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .contact-holder {
+    margin-left: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

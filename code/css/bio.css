@@ -1,0 +1,83 @@
+.space {
+  height: 30em;
+  overflow: hidden;
+}
+
+.space {
+  padding-top: 0;
+}
+
+.about-me {
+  height: 30em;
+}
+
+.self-gif {
+  height: 0.1em;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space {
+    height: 30em;
+    background: #EBBE50;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .self-gif {
+    background-image: url(../../images/self-gif.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+
+  .bio {
+    background-color: #EBBE50;
+    height: 38em;
+  }
+
+  .bio-header {
+    color: #494138;
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .bio-body {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .space {
+    height: 32em;
+    background: #EBBE50;
+  }
+
+  .self-gif {
+    background-image: url(../../images/self-gif.gif);
+  }
+
+  .bio {
+    background-color: #EBBE50;
+    height: 35em;
+  }
+
+  .bio-header {
+    color: #494138;
+    padding-top: 1em;
+    font-size: 2.5em;
+  }
+
+  .bio-body {
+    font-size: 1.2em;
+  }
+
+}

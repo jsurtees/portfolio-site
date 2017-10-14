@@ -1,0 +1,50 @@
+.project {
+  height: 16.1vh;
+  overflow-y: hidden;
+  margin-bottom: 0.5em;
+}
+
+.work-title {
+  padding-top: 3em;
+  display: block;
+}
+
+.work-cards {
+  padding-top: 1vh;
+  padding-bottom: 0.5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .work-cards {
+    padding-top: 0.6em;
+  }
+
+  .work-title {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 608px) {
+
+  .project {
+    height: 47.5vh;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin-bottom: 0;
+  }
+
+  .work-cards {
+    padding-top: 0.6em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

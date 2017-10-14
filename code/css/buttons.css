@@ -1,0 +1,12 @@
+.reg-btn {
+  color: #1C2323;
+  text-decoration: none;
+  border: 2px solid #1C2323;
+  padding: 1em 3em;
+  transition: .3s ease;
+}
+
+.reg-btn:hover {
+  background-color: #1C2323;
+  color: #EBBE50;
+}

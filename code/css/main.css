@@ -1,0 +1,60 @@
+html {
+  background-color: #EBBE50;
+  font-family: 'Poppins', sans-serif;
+  color: #1C2323;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 35em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  ::-webkit-scrollbar {
+      width: 9px;
+      display: block;
+    }
+
+  ::-webkit-scrollbar-track {
+    border-left: 1px solid #494138;
+    background: #494138;
+    border-radius: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    max-width: 8px;
+    border-radius: 0;
+    background: #EBBE50;
+    border-left: 1px solid #494138;
+  }
+
+}
+
+
+@media only screen and (min-width: 90em) {
+
+  ::-webkit-scrollbar {
+      width: 9px;
+      display: block;
+    }
+
+  ::-webkit-scrollbar-track {
+    border-left: 1px solid #494138;
+    background: #494138;
+    border-radius: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    max-width: 8px;
+    border-radius: 0;
+    background: #EBBE50;
+    border-left: 1px solid #494138;
+  }
+
+}
