@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <title>JS Design</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/type.css">
-  <link rel="stylesheet" href="css/modules.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/project.css">
-  <link rel="stylesheet" href="css/work-cards.css">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/splash.css">
-  <link rel="stylesheet" href="css/buttons.css">
-  <link rel="stylesheet" href="css/bio.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/grid.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/type.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/modules.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/contact.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/project.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/work-cards.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/nav.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/splash.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/buttons.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/bio.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/footer.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -37,24 +37,26 @@
   <div class="slide-menu-holder btn">
     <div id="mySidenav" class="sidenav">
       <div class="holder btn text-center">
-        <a class="text-center navbtn" id="navbtn" href="index.html" onclick="$('#start').animatescroll();">About</a>
+        <a class="text-center navbtn" id="navbtn" href="{{site.baseurl}}/" onclick="$('#start').animatescroll();">About</a>
       </div>
       <div class="holder btn text-center">
-        <a class="text-center navbtn" id="navbtn" href="work.html">Work</a>
+        <a class="text-center navbtn" id="navbtn" href="{{site.baseurl}}/work/">Work</a>
       </div>
       <div class="holder btn text-center">
-        <a class="text-center navbtn" id="navbtn" href="contact.html">Contact</a>
+        <a class="text-center navbtn" id="navbtn" href="{{site.baseurl}}/contact/">Contact</a>
       </div>
     </div>
   </div>
+
+  {{content}}
 
   <section class="pad-b pad-t footer-home gutter-1-2">
     <small class="gutter-1-4">© James Surtees 2017</small>
   </section>
 
-  <script src="js/jquery-3.2.0.min.js"></script>
-  <script src="js/tilt.jquery.js"></script>
-  <script src="js/main.js"></script>
-  <script src="animatescroll.js"></script>
+  <script src="{{site.baseurl}}/js/jquery-3.2.0.min.js"></script>
+  <script src="{{site.baseurl}}/js/tilt.jquery.js"></script>
+  <script src="{{site.baseurl}}/js/main.js"></script>
+  <script src="{{site.baseurl}}/animatescroll.js"></script>
 </body>
 </html>
