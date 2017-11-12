@@ -1,6 +1,12 @@
 .space {
-  height: 30em;
-  overflow: hidden;
+  height: 65%;
+  overflow: ;
+  transform: translateY(22%);
+  padding-bottom: 35%;
+}
+
+#start {
+
 }
 
 .space {
@@ -8,11 +14,21 @@
 }
 
 .about-me {
-  height: 30em;
+  height: 65%;
 }
 
 .self-gif {
   height: 0.1em;
+}
+
+.bio-header {
+  color: #494138;
+  font-size: 2em;
+  margin-bottom: none;
+}
+
+.bio-body {
+  font-size: 1em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -24,28 +40,31 @@
 @media only screen and (min-width: 60em) {
 
   .space {
-    height: 30em;
+    overflow: hidden;
+    height: 65%;
     background: #EBBE50;
-    max-width: 100%;
+    position: absolute;
     padding-top: 0;
+    transform: translate(0);
   }
 
   .self-gif {
     background-image: url(../images/self-gif.gif);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
+    height: 28em;
   }
 
   .bio {
     background-color: #EBBE50;
-    height: 38em;
+    height: 65%;
   }
 
   .bio-header {
     color: #494138;
     padding-top: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .bio-body {
@@ -57,17 +76,18 @@
 @media only screen and (min-width: 90em) {
 
   .space {
-    height: 32em;
+    height: 80%;
     background: #EBBE50;
   }
 
   .self-gif {
     background-image: url(../images/self-gif.gif);
+    height: 33em;
   }
 
   .bio {
     background-color: #EBBE50;
-    height: 35em;
+    height: 80%;
   }
 
   .bio-header {

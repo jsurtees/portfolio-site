@@ -20,7 +20,13 @@
 @media only screen and (min-width: 60em) {
 
   .footer {
-    margin-top: 3vh;
+    margin-top: 0;
+  }
+
+  .footer-home {
+    display: block;
+    padding-top: 29em;
+
   }
 
 
@@ -28,6 +34,8 @@
 
 @media only screen and (min-width: 90em) {
 
-
+  .footer-home {
+    padding-top: 32em;
+  }
 
 }

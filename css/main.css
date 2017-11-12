@@ -8,6 +8,19 @@ html {
   display: none;
 }
 
+.nav-bar {
+  background-color: #494138;
+  border-bottom: 1px solid #EBBE50;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 1000;
+}
+
+.initials {
+  width: 7em;
+  transform: translateX(-1em);
+}
+
 @media only screen and (min-width: 35em) {
 
 
@@ -34,6 +47,7 @@ html {
     border-left: 1px solid #494138;
   }
 
+
 }
 
 
@@ -56,5 +70,6 @@ html {
     background: #EBBE50;
     border-left: 1px solid #494138;
   }
+
 
 }
