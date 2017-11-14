@@ -18,16 +18,24 @@ html {
 
 .initials {
   width: 7em;
-  transform: translateX(-1em);
+  transform: translateX(-.8em);
 }
 
 @media only screen and (min-width: 35em) {
 
-
+  .initials {
+    width: 7em;
+    transform: translateX(-.8em);
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  .initials {
+    width: 7em;
+    transform: translateX(-1em);
+  }
 
   ::-webkit-scrollbar {
       width: 9px;
@@ -36,7 +44,7 @@ html {
 
   ::-webkit-scrollbar-track {
     border-left: 1px solid #494138;
-    background: #494138;
+    background: #302B26;
     border-radius: 0px;
   }
 
@@ -60,7 +68,7 @@ html {
 
   ::-webkit-scrollbar-track {
     border-left: 1px solid #494138;
-    background: #494138;
+    background: #302B26;
     border-radius: 0px;
   }
 

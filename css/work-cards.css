@@ -2,16 +2,36 @@
   height: 16.1vh;
   overflow-y: hidden;
   margin-bottom: 0.5em;
+  transform-style: preserve-3d;
 }
 
+/*.project-card {
+  filter: blur(0);
+}
+
+.project-card:hover {
+  filter: blur(0.08em);
+}*/
+
 .work-title {
-  padding-top: 3em;
+  text-align: center;
+  background-color: #494138;
+  color: #EBBE50;
+  padding-top: 4em;
+  padding-bottom: 1em;
   display: block;
 }
 
 .work-cards {
   padding-top: 1vh;
   padding-bottom: 0.5em;
+}
+
+.project-header {
+  position: absolute;
+  color: #EBBE50;
+  transform: translateX(2.5em) translateY(4.5em);
+  /*transform: translateZ(20px);*/
 }
 
 @media only screen and (min-width: 38em) {
@@ -29,7 +49,7 @@
 @media only screen and (min-width: 608px) {
 
   .project {
-    height: 47.5vh;
+    height: 15em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 0.25em;
@@ -38,7 +58,26 @@
   }
 
   .work-cards {
-    padding-top: 0.6em;
+    padding-top: 4.5em;
+    padding-bottom: 1em;
+  }
+
+  .work-title {
+    padding-top: 8em;
+    padding-bottom: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 850px) {
+
+  .project {
+    height: 20em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin-bottom: 0;
   }
 
 }

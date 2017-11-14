@@ -139,8 +139,6 @@
   z-index: 1000;
 }
 
-
-
 #fill {
   right: 0.57em;
   position: fixed;
@@ -151,6 +149,10 @@
   border-left: 1px solid #EBBE50;
   border-right: 1px solid #EBBE50;
   border-bottom: 1px solid #EBBE50;
+}
+
+.navbtn {
+  
 }
 
 @media only screen and (min-width: 38em) {

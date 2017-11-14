@@ -1,20 +1,11 @@
 .space {
-  height: 65%;
-  overflow: ;
-  transform: translateY(22%);
-  padding-bottom: 35%;
-}
-
-#start {
-
+  display: inline-block;
+  position: absolute;
 }
 
 .space {
   padding-top: 0;
-}
-
-.about-me {
-  height: 65%;
+  transform: translateY(4em);
 }
 
 .self-gif {
@@ -24,11 +15,17 @@
 .bio-header {
   color: #494138;
   font-size: 2em;
-  margin-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 1em;
 }
 
 .bio-body {
   font-size: 1em;
+}
+
+.reg-btn {
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
@@ -59,16 +56,24 @@
   .bio {
     background-color: #EBBE50;
     height: 65%;
+    padding-top: 3em;
   }
 
   .bio-header {
     color: #494138;
-    padding-top: 1em;
+    padding-top: 0;
     font-size: 2em;
+    margin-left: 0.5em;
   }
 
   .bio-body {
     font-size: 1em;
+    margin-right: 2em;
+    margin-left: 1em;
+  }
+
+  .reg-btn {
+    margin-left: 1em;
   }
 
 }

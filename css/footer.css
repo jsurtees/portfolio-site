@@ -2,18 +2,28 @@
   background-color: #494138;
   color: #EBBE50;
   margin-top: 0;
+  z-index: 10000000;
 }
 
 .footer-home {
   background-color: #494138;
   color: #EBBE50;
-  margin-top: 0;
-  margin-top: none;
+  margin-top: 25em;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .footer-home {
+    margin-top: 23em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-
+  .footer-home {
+    margin-top: 22em;
+  }
 
 }
 
@@ -26,7 +36,7 @@
   .footer-home {
     display: block;
     padding-top: 29em;
-
+    margin-top: 0;
   }
 
 

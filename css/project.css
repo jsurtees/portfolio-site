@@ -8,40 +8,95 @@
 }
 
 .text {
+  font-size: 0.8em;
   height: flex;
-  border-top: 2px solid #494138;
+  border-bottom: 2px solid #494138;
   padding-left: 0.5em;
+  padding-bottom: 2em;
+
+}
+
+.text-header {
+  margin: 0 0.5em 0.5em 0.5em;
+}
+
+.text-body {
+  margin: 0 1em;
 }
 
 .text-1 {
   border-top: 0px solid #494138;
 }
 
+.last-text {
+  border: none;
+}
+
 .info {
   border-top: 2px solid #494138;
 }
 
+.title-space {
+  background-color: #494138;
+  padding-top: 1em;
+}
+
+.text-header {
+  color: #494138;
+}
+
 .project-title {
-  padding-top: 1.5em;
   display: block;
+  padding-top: 3.5em;
   margin-left: 0.5em;
+  padding-bottom: 0.8em;
+  margin-bottom: inherit;
+  color: #EBBE50;
+}
+
+.research {
+  border-bottom: none;
 }
 
 @media only screen and (min-width: 38em) {
 
   .pics {
     display: inline-block;
+    height: 50vh;
+    width: 50vw;
   }
 
   .img-1,
   .img-2,
   .img-3,
   .img-4 {
-    height: 100vh;
-    background-image: url(../images/placeholder.jpg);
+    border-bottom: 2px solid #494138;
+    height: 50vh;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
+
+  }
+
+  .img-4 {
+    border-bottom: none;
+  }
+
+  /*.img-1 {
+    background-image: url(../images/placeholder.jpg);
+  }*/
+
+  .img-2 {
+    background-image: url(../images/nav-gradient.jpg);
+  }
+
+  .img-3 {
+    background-image: url(../images/placeholder.jpg);
+  }
+
+  .img-4 {
+    background-image: url(../images/nav-gradient.jpg);
   }
 
   .small-image-holder {
@@ -49,20 +104,87 @@
   }
 
   .text {
-    height: 100vh;
+    height: 50vh;
     padding-left: 1em;
+    /*margin-right: 4em;*/
+  }
+
+  .research {
+    height: 43vh;
+    /*margin-right: 8em;*/
+    border-bottom: none;
   }
 
   .project-title {
     padding-top: 2.5em;
-    margin-left: 1em;
+    margin: 0;
+    text-align: center;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .pics {
+    display: inline-block;
+    height: 80vh;
+    width: 49vw;
+  }
 
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    border-bottom: 2px solid #494138;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+  }
+
+  .img-4 {
+    border-bottom: none;
+  }
+
+  /*.img-1 {
+    background-image: url(../images/placeholder.jpg);
+  }*/
+
+  .img-2 {
+    background-image: url(../images/nav-gradient.jpg);
+  }
+
+  .img-3 {
+    background-image: url(../images/placeholder.jpg);
+  }
+
+  .img-4 {
+    background-image: url(../images/nav-gradient.jpg);
+  }
+
+  .small-image-holder {
+    display: none;
+  }
+
+  .text {
+    height: 80vh;
+    padding-left: 1em;
+    /*margin-right: 4em;*/
+  }
+
+  .research {
+    height: 40vh;
+    /*margin-right: 8em;*/
+    border-bottom: none;
+  }
+
+  .project-title {
+    padding-top: 2.5em;
+    margin: 0;
+    text-align: center;
+  }
 
 }
 
