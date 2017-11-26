@@ -22,7 +22,12 @@
 @media only screen and (min-width: 38em) {
 
   .footer-home {
-    margin-top: 22em;
+    position: absolute;
+    width: -webkit-fill-available;
+  }
+
+  .topspace {
+    margin-top: 5em;
   }
 
 }
@@ -33,19 +38,26 @@
     margin-top: 0;
   }
 
-  .footer-home {
+  /*.footer-home {
     display: block;
     padding-top: 29em;
     margin-top: 0;
-  }
+  }*/
 
+  .topspace {
+    margin-top: 5em;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  .footer-home {
+  /*.footer-home {
     padding-top: 32em;
+  }*/
+
+  .topspace {
+    margin-top: 12em;
   }
 
 }

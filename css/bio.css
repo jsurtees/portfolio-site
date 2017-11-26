@@ -38,7 +38,7 @@
 
   .space {
     overflow: hidden;
-    height: 65%;
+    height: 70%;
     background: #EBBE50;
     position: absolute;
     padding-top: 0;
@@ -81,18 +81,18 @@
 @media only screen and (min-width: 90em) {
 
   .space {
-    height: 80%;
+    height: 100%;
     background: #EBBE50;
   }
 
   .self-gif {
     background-image: url(../images/self-gif.gif);
-    height: 33em;
+    height: 35em;
   }
 
   .bio {
     background-color: #EBBE50;
-    height: 80%;
+    height: 100%;
   }
 
   .bio-header {

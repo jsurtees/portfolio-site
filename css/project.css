@@ -186,6 +186,10 @@
     text-align: center;
   }
 
+  /*.research {
+    height: 45vh;
+  }*/
+
 }
 
 @media only screen and (min-width: 90em) {

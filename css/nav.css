@@ -151,8 +151,10 @@
   border-bottom: 1px solid #EBBE50;
 }
 
-.navbtn {
-  
+.logo-btn {
+  display: inline-block;
+  width: 7em;
+  height: 4em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -171,9 +173,22 @@
     transform: translateY(-138%);
   }
 
+  .logo-btn {
+    display: inline-block;
+    width: 7em;
+    height: 4em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  .logo-btn {
+    display: inline-block;
+    width: 7em;
+    height: 3.6em;
+  }
+
 /*
   #nav-icon {
     width: 4.8vw;
