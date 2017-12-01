@@ -128,7 +128,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 1;
+    opacity: 0;
     transition: .5s ease-out;
 
     height: 97.5%;
@@ -145,20 +145,20 @@
   }
 
   .project:hover .overlay {
-    opacity: 0;
+    opacity: 1;
     /*transition: 0.3s ease;*/
   }
 
   .project-card {
-    filter: brightness(50%);
-    opacity: .8;
+    filter: brightness(100%);
+    opacity: 1;
     transition: .5s ease;
   }
 
   .project:hover .project-card {
     /*transition: 1s ease-in-out;*/
-    opacity: 1;
-    filter: brightness(100%);
+    opacity: .8;
+    filter: brightness(50%);
   }
 
   .overlay-1,
@@ -197,7 +197,7 @@
   .overlay-4,
   .overlay-5,
   .overlay-6 {
-
+    height: 99%;
     margin-top: .25em;
   }
 

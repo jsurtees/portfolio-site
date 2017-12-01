@@ -6,6 +6,19 @@
 
 .contact {
   height: 90.9vh;
+  position: relative;
+
+}
+
+.talking-face {
+  transform: translateY(-125%) translateX(-5%);
+  height: 35vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("../images/talking-face.gif");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .contact-holder {
