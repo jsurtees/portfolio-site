@@ -52,9 +52,9 @@
 
 @media only screen and (min-width: 90em) {
 
-  /*.footer-home {
-    padding-top: 32em;
-  }*/
+  .footer-home {
+    margin-top: 19em;
+  }
 
   .topspace {
     margin-top: 12em;

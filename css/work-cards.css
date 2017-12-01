@@ -130,7 +130,9 @@
     left: 0;
     opacity: 0;
     transition: .5s ease-out;
-
+    background-image: url("../images/project-card-hover-3ksdbvk.svg");
+    background-size: cover;
+    background-position: center;
     height: 97.5%;
     width: 99%;
     margin-left: .25em;
@@ -164,24 +166,23 @@
   .overlay-1,
   .overlay-2,
   .overlay-3 {
-
     margin-top: .5em;
   }
 
-  .overlay-2 {
-    background-image: url("../images/project-card-back-3.svg");
+  /*.overlay-2 {
+    background-image: url("../images/project-card-hover-3.svg");
     background-size: cover;
     background-position: center;
   }
 
   .overlay-3 {
-    background-image: url("../images/project-card-back-3.svg");
+    background-image: url("../images/project-card-hover-3.svg");
     background-size: cover;
     background-position: center;
   }
 
   .overlay-4 {
-    background-image: url("../images/project-card-back-3.svg");
+    background-image: url("../images/project-card-hover-3.svg");
     background-size: cover;
     background-position: center;
   }
@@ -189,10 +190,10 @@
   .overlay-1,
   .overlay-5,
   .overlay-6 {
-    background-image: url("../images/project-card-back-3.svg");
+    background-image: url("../images/project-card-hover-3.svg");
     background-size: cover;
     background-position: center;
-  }
+  }*/
 
   .overlay-4,
   .overlay-5,

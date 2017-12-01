@@ -88,7 +88,7 @@
   }*/
 
   .img-2 {
-    background-image: url(../images/nav-gradient.jpg);
+    background-image: url(../images/pink-placeholder.jpg);
   }
 
   .img-3 {
@@ -96,7 +96,7 @@
   }
 
   .img-4 {
-    background-image: url(../images/nav-gradient.jpg);
+    background-image: url(../images/pink-placeholder.jpg);
   }
 
   .small-image-holder {
@@ -113,6 +113,7 @@
     height: 43vh;
     /*margin-right: 8em;*/
     border-bottom: none;
+    margin-right: 1em;
   }
 
   .project-title {
@@ -153,7 +154,7 @@
   }*/
 
   .img-2 {
-    background-image: url(../images/nav-gradient.jpg);
+    background-image: url(../images/pink-placeholder.jpg);
   }
 
   .img-3 {
@@ -161,7 +162,7 @@
   }
 
   .img-4 {
-    background-image: url(../images/nav-gradient.jpg);
+    background-image: url(../images/pink-placeholder.jpg);
   }
 
   .small-image-holder {

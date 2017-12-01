@@ -326,3 +326,16 @@
   }
 
 }
+
+@media (hover: none) {
+
+  .splash {
+    display: none;
+  }
+
+  .small-splash {
+    display: block;
+    transform: translateY(4em);
+  }
+
+}
