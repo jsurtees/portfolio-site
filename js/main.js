@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "35%";
-    document.getElementById("main").style.marginRight = "35%";
+    document.getElementById("mySidenav").style.width = "75%";
+    // document.getElementById("main").style.marginRight = "75%";
     // document.getElementById("start").style.height = "10em";
     // document.getElementById("biobody").style.fontSize = "0.6em";
     // document.getElementById("bioheader").style.fontSize = "1.5em";

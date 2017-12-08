@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.project:focus {
+  outline: none;
+}
+
 .project-card {
 
 }
@@ -32,8 +36,8 @@
 }
 
 .work-cards {
-  padding-top: 1vh;
-  padding-bottom: 0.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.25em;
 }
 
 .project-header {
@@ -49,6 +53,7 @@
 }
 
 .overlay {
+    background: rgba(73, 65, 56, 0.6);
   position: absolute;
   top: 0;
   right: 0;
@@ -59,7 +64,7 @@
   background-image: none;
   height: 100%;
   width: 100%;
-  margin-left: 2em;
+
   margin-top: 0;
   /*box-shadow: 2px 2px 3px 3px #494138;*/
 }
@@ -70,11 +75,13 @@
 }
 
 .project-header {
+  margin-left: 2em;
   padding-top: 1.5em;
 }
 
 .project-card {
-  filter: brightness(60%);
+
+  /*filter: brightness(60%);*/
 }
 
 /*.project:hover .project-card {
@@ -106,6 +113,7 @@
 
   .project-header {
     padding-top: 2em;
+    margin-left: 0;
   }
 
 
@@ -130,7 +138,8 @@
     left: 0;
     opacity: 0;
     transition: .5s ease-out;
-    background-image: url("../images/project-card-hover-3ksdbvk.svg");
+    background: rgba(73, 65, 56, 0.5);
+    /*background-image: url("../images/project-card-hover-3.svg");*/
     background-size: cover;
     background-position: center;
     height: 97.5%;

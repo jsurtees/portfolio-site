@@ -9,17 +9,17 @@
   max-height: 100%;
   position: fixed;
   right: 0.5em;
-  transform: translateY(-131%);
-  z-index: 1000000000000000000000;
+  transform: translateY(-125%);
+
 }
 
 .sidenav a {
   position: relative;
-  width: 67%;
+  width: 60%;
   min-width: 10em;
   padding: 1em;
   margin-top: 2em;
-  margin-left: 17%;
+  margin-left: 20%;
   border: 1.5px solid #EBBE50;
   text-decoration: none;
   color: #EBBE50;
@@ -48,13 +48,14 @@
   border-left: 1px solid #EBBE50;
 }
 
-#main {
+/*#main {
   transition: margin-right .5s;
-}
+}*/
 
 #nav-icon {
-  width: 60px;
-  height: 45px;
+  margin-right: .5em;
+  width: 40px;
+  height: 39px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -70,7 +71,7 @@
 #nav-icon span {
   display: block;
   position: fixed;
-  height: 12px;
+  height: 4px;
   width: 100%;
   background: #EBBE50;
   opacity: 1;
@@ -92,22 +93,22 @@
 }
 
 #nav-icon span:nth-child(2) {
-  top: 18px;
+  top: 12px;
   z-index: 2;
 }
 
 #nav-icon span:nth-child(3) {
-  top: 18px;
+  top: 12px;
   z-index: 3;
 }
 
 #nav-icon span:nth-child(4) {
-  top: 36px;
+  top: 24px;
   z-index: 1;
 }
 
 #nav-icon.open span:nth-child(1) {
-  top: 18px;
+  top: 12px;
   width: 0%;
   left: 50%;
   z-index: 1;
@@ -153,11 +154,27 @@
 
 .logo-btn {
   display: inline-block;
-  width: 7em;
+  width: 5em;
   height: 4em;
 }
 
 @media only screen and (min-width: 38em) {
+
+
+  .sidenav a {
+    position: relative;
+    width: 80%;
+    min-width: 10em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 10%;
+    border: 1.5px solid #EBBE50;
+    text-decoration: none;
+    color: #EBBE50;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+  }
 
   #fill {
     right: 3.4em;
@@ -170,12 +187,12 @@
   .nav-btn {
     right: 0.6em;
     z-index: 1000;
-    transform: translateY(-138%);
+    transform: translateY(-133%);
   }
 
   .logo-btn {
     display: inline-block;
-    width: 7em;
+    width: 5em;
     height: 4em;
   }
 
@@ -185,8 +202,12 @@
 
   .logo-btn {
     display: inline-block;
-    width: 7em;
+    width: 5em;
     height: 3.6em;
+  }
+
+  .sidenav {
+    display: none;
   }
 
 /*
@@ -320,6 +341,7 @@
   }
 
   .nav-btn {
+    display: none;
     right: 0.8em;
     z-index: 1000;
     transform: translateY(-119%);
