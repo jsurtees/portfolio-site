@@ -1,3 +1,7 @@
+/* body {
+  background-color: #f4e9d4;
+} */
+
 .text-big {
   padding: 0 1em 0 1em;
 }
@@ -12,7 +16,7 @@
 }
 
 .info {
-  border-top: 1px solid #494138;
+  border-top: 2px solid #494138;
 }
 
 .title-space {
@@ -25,7 +29,7 @@
 }
 
 .project-title {
-  padding-top: 3.5em;
+  padding-top:3.5em;
   margin-left: 0.5em;
   padding-bottom: 0.8em;
   margin-bottom: inherit;
@@ -36,10 +40,14 @@
   padding: 0 1em 0 1em;
 }
 
+.big-list-1 {
+  border-top: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .text-big {
-    padding: 0 2em 0.5em 1em;
+    padding: 0 2em 0.5em 1.5em;
   }
 
   .pics {
@@ -51,7 +59,7 @@
   }
 
   .research {
-    height: 17em;
+    padding-bottom: .5em;
   }
 
   .project-title {
@@ -64,46 +72,58 @@
     margin-bottom: 0.5em;
   }
 
+  .info {
+    border-top: 5px solid #494138;
+  }
+
+  .big-img {
+    border-right: 5px solid #494138;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .research {
-    height: 22em;
-    margin-right: 6em;
-    margin-left: 6em;
+    padding-right: 2.2em;
+    padding-left: 1.6em;
+
   }
 
   .text-body {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .text-body-research {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
+
+  .text-big {
+    padding: 0 2em 0.5em 2em;
+  }
+
+  /* .top-text-1 {
+    border-right: 5px solid #494138;
+    padding-right: 0;
+  } */
 
 }
 
 @media only screen and (min-width: 70em) {
 
-  .research {
-    height: 22em;
-  }
-
   .text-body {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .text-body-research {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  .research {
-    height: 19em;
-  }
+
+
 
 }

@@ -1,0 +1,15 @@
+---
+---
+
+{% include_relative grid.css %}
+{% include_relative type.css %}
+{% include_relative modules.css %}
+{% include_relative main.css %}
+{% include_relative contact.css %}
+{% include_relative project.css %}
+{% include_relative work-cards.css %}
+{% include_relative nav.css %}
+{% include_relative splash.css %}
+{% include_relative buttons.css %}
+{% include_relative bio.css %}
+{% include_relative footer.css %}

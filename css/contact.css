@@ -7,11 +7,10 @@
 .contact {
   height: 90.9vh;
   position: relative;
-
 }
 
 .talking-face {
-  transform: translateY(-125%) translateX(-5%);
+  transform: translateY(-130%) translateX(0);
   height: 35vh;
   width: 100%;
   position: absolute;
@@ -21,26 +20,50 @@
   background-size: contain;
 }
 
-.contact-holder {
-  margin-left: 1em;
+.contact {
+  margin-left: 0.5em;
+  padding-top: 6em;
+}
+.email {
+  margin-left: .1em;
+  color: #1C2323;
+}
+
+.phone-number {
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .contact-holder {
-    margin-left: 2em;
+  .contact {
+    padding-top: 6em;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .contact {
+    padding-top: 6em;
+  }
 
+  .talking-face {
+    transform: translateY(-125%) translateX(-5%);
+    height: 35vh;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/talking-face-contact.gif");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  .contact {
+    padding-top: 6em;
+  }
 
 }
