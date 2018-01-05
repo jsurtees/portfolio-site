@@ -10,9 +10,9 @@
 }
 
 .talking-face {
-  transform: translateY(-130%) translateX(0);
+  transform: translateY(-130%) translateX(2.5%);
   height: 35vh;
-  width: 100%;
+  width: 95%;
   position: absolute;
   background-image: url("../images/talking-face-contact.gif");
   background-position: right bottom;
@@ -48,7 +48,7 @@
   }
 
   .talking-face {
-    transform: translateY(-125%) translateX(-5%);
+    transform: translateY(-115%) translateX(-1%);
     height: 35vh;
     width: 100%;
     position: absolute;

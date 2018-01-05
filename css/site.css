@@ -13,3 +13,4 @@
 {% include_relative buttons.css %}
 {% include_relative bio.css %}
 {% include_relative footer.css %}
+{% include_relative 404.css %}
