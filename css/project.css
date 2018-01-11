@@ -1,7 +1,7 @@
 /* body {
   background-color: #f4e9d4;
 } */
-/* 
+/*
 .first-video {
   display: block;
   position: flex
@@ -49,6 +49,14 @@
   border-top: none;
 }
 
+.first-shot-dark {
+  background-color: #494138;
+}
+
+.first-shot-light {
+  background-color: #EBBE50;
+}
+
 @media only screen and (min-width: 38em) {
 
   .text-big {
@@ -78,11 +86,11 @@
   }
 
   .info {
-    border-top: 5px solid #494138;
+    border-top: 2px solid #494138;
   }
 
   .big-img {
-    border-right: 5px solid #494138;
+    border-right: 2px solid #494138;
   }
 
 }
