@@ -57,6 +57,15 @@
   background-color: #EBBE50;
 }
 
+.long-text {
+  padding-bottom: 3em;
+}
+
+.left-text-off {
+  display: none;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .text-big {
@@ -93,6 +102,14 @@
     border-right: 2px solid #494138;
   }
 
+  .long-text {
+    padding-bottom: 0;
+  }
+
+  .left-text-off {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -100,7 +117,6 @@
   .research {
     padding-right: 2.2em;
     padding-left: 1.6em;
-
   }
 
   .text-body {
