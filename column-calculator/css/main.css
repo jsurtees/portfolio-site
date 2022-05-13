@@ -10,7 +10,7 @@ h2 {
   margin: auto;
 }
 
-#preview, 
+#preview,
 #preview-16x9,
 #preview-2x3 {
   height: 77vw;
@@ -226,7 +226,7 @@ h2 {
     padding-right: 1.4em;
   }
 
-  #preview, 
+  #preview,
   #preview-16x9,
   #preview-2x3 {
     width: 90vw;
@@ -451,7 +451,7 @@ h2 {
 }
 
 .download {
-  text-align: right;  
+  text-align: right;
 }
 
 
@@ -460,7 +460,7 @@ h2 {
 @media only screen and (min-width: 66em) {
 
   .left {
-    width:33vw;
+    width:32vw;
     float:left;
     display: inline-block;
   }
@@ -518,7 +518,7 @@ h2 {
   }
 
   .left {
-    width:30vw;
+    width:29vw;
   }
 
   .right {
@@ -535,10 +535,6 @@ h2 {
   .previewCol, .previewGut {
     max-height: 785px;
   }
-  
+
 
 }
-
-
-
-
