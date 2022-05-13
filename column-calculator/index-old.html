@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Element Sizer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Asset</br>Sizer</h1>
+
+  <div id="preview"></div>
+
+  <h5>How many columns are we working with? (max 12)</h5>
+  <div class="column-toggle">
+    <button class="toggle-button" id="columnsDown" onclick="numberDown(); calculateColumns()">
+      <img src="images/left.svg" height="20px" width="30px">
+    </button>
+    <div class="counter">
+      <h2 id="numberColumns">3</h2>
+    </div>
+    <button class="toggle-button" id="columnsUp" onclick="numberUp(); calculateColumns()">
+      <img src="images/right.svg" height="20px" width="30px">
+    </button>
+  </div>
+
+  <h5>Enter the gutter:</h5>
+  <div class="gutter-value">
+    <input oninput="calculateColumns()" id="gutter-value-input" class="gutter-value-input" value="20" />
+  </div>
+
+  <h5>Enter the artboard width:</h5>
+  <div class="artboard-value">
+    <input oninput="calculateColumns()" id="artboard-value-input" class="artboard-value-input" value="1240" />
+  </div>
+  
+  </br>
+  </br>
+  </br>
+
+  <h5>Calculations:</h5>
+  <p>Column Width: <span class="calcWidth"></span></p>
+  <p>16x9 Size: <span class="calcWidth"></span> x <span class="calc16x9"></span></p>
+  <p>2x3 Size: <span class="calcWidth"></span> x <span class="calc2x3"></span></p>
+
+</body>
+</html>
+
+<script src="jquery-3.2.0.min.js"></script>
+<script src="main.js"></script>
