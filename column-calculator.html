@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Element Sizer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="column-calculator/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="right">
+
+    <div class="prevCont">
+      <div class="tab">
+      <button class="tablinks" onclick="showPreview(event, 'preview')" id="defaultOpen">Columns<div class="underline"></div></button>
+      <button class="tablinks" onclick="showPreview(event, 'preview-16x9')">16 x 9<div class="underline"></div></button>
+      <button class="tablinks" onclick="showPreview(event, 'preview-2x3')">2 x 3<div class="underline"></div></button>
+    </div>
+    <div class="colWidth">
+      <p class="colWidthTxt">Column Width: <span class="calcWidth"></span></p>
+    </div>
+      <div id="preview" class="tabcontent"></div>
+      <div id="preview-16x9" class="tabcontent"></div>
+      <div id="preview-2x3" class="tabcontent"></div>
+    </div>
+  </div>
+
+    <div class="left">
+      <div class="settings">
+
+        <div class="column-toggle">
+          <h5>Columns</h5>
+          <div class="colCounterRight">
+            <button class="toggle-button" id="columnsDown" onclick="numberDown(); calculateColumns()">
+              <img class="down-img" src="images/left.svg">
+            </button>
+            <div class="counter">
+              <h2 id="numberColumns">3</h2>
+            </div>
+            <button class="toggle-button" id="columnsUp" onclick="numberUp(); calculateColumns()">
+              <img class="up-img" src="images/right.svg">
+            </button>
+          </div>
+        </div>
+
+        <div class="gutter-value">
+          <h5>Gutter</h5>
+          <input oninput="calculateColumns()" id="gutter-value-input" class="gutter-value-input" value="20" />
+        </div>
+
+        <div class="artboard-value">
+          <h5>Artboard</h5>
+          <input oninput="calculateColumns()" id="artboard-value-input" class="artboard-value-input" value="1240" />
+        </div>
+
+      </div>
+
+
+    <div id="calculations">
+      <div class="cell">
+        <p><span class="type">Column:</span><span class="value"><span class="calcWidth"></span></span></p>
+      </div>
+      <div class="cell">
+        <p><span class="type">16 x 9:</span><span class="value"><span class="calcWidth"></span> x <span class="calc16x9"></span></span><span class="download"><a id="download16x9" target="_blank">JPG<img src="images/download.svg"></a></span></p>
+      </div>
+      <div class="cell">
+        <p><span class="type">2 x 3:</span><span class="value"><span class="calcWidth"></span> x <span class="calc2x3"></span></span><span class="download"><a id="download2x3" target="_blank">JPG<img src="images/download.svg"></a></span></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<script src="column-calculator/jquery-3.2.0.min.js"></script>
+<script src="column-calculator/main.js"></script>

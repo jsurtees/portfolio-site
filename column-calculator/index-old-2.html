@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Element Sizer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Asset</br>Sizer</h1>
+
+  <!-- <div class="screen-size">
+    <button class="phone" id="phone" onclick="phone()">
+      <img class="phone-icon" src="images/phone-icon.svg">
+      <h4>Handset</h4>
+    </button>
+    <button class="tablet" id="tablet" onclick="tablet()">
+      <img class="tablet-icon" src="images/tablet-icon.svg">
+      <h4>Tablet</h4>
+    </button>
+    <button class="tv" id="tv" onclick="tv()">
+      <img class="tv-icon" src="images/tv-icon.svg">
+      <h4>16 X 9</h4>
+    </button>
+  </div> -->
+
+  <div class="grid" id="grid">
+    <div class="margin margin-left" id="margin-left">
+    </div>
+    <div class="element element-1" id="element-1">
+    </div>
+    <div class="gutter columns-2" id="columns-2">
+    </div>
+    <div class="element element-2" id="element-2">
+    </div>
+    <div class="gutter columns-3" id="columns-3">
+    </div>
+    <div class="element element-3" id="element-3">
+    </div>
+    <div class="gutter columns-4" id="columns-4">
+    </div>
+    <div class="element element-4" id="element-4">
+    </div>
+    <div class="gutter columns-5" id="columns-5">
+    </div>
+    <div class="element element-5" id="element-5">
+    </div>
+    <div class="gutter columns-6" id="columns-6">
+    </div>
+    <div class="element element-6" id="element-6">
+    </div>
+    <div class="gutter columns-7" id="columns-7">
+    </div>
+    <div class="element element-7" id="element-7">
+    </div>
+    <div class="gutter columns-8" id="columns-8">
+    </div>
+    <div class="element element-8" id="element-8">
+    </div>
+    <div class="gutter columns-9" id="columns-9">
+    </div>
+    <div class="element element-9" id="element-9">
+    </div>
+    <div class="gutter columns-10" id="columns-10">
+    </div>
+    <div class="element element-10" id="element-10">
+    </div>
+    <div class="gutter columns-11" id="columns-11">
+    </div>
+    <div class="element element-11" id="element-11">
+    </div>
+    <div class="gutter columns-12" id="columns-12">
+    </div>
+    <div class="element element-12" id="element-12">
+    </div>
+    <div class="gutter margin-right" id="margin-right">
+    </div>
+  </div>
+
+
+  <h5>How many columns are we working with? (max 12)</h5>
+  <div class="column-toggle">
+    <button class="toggle-button" id="columnsDown" onclick="numberDown(); moreColumns()">
+      <img src="images/left.svg" height="20px" width="30px">
+    </button>
+    <div class="counter">
+      <h2 id="numberColumns">2</h2>
+    </div>
+    <button class="toggle-button" id="columnsUp" onclick="numberUp(); moreColumns()">
+      <img src="images/right.svg" height="20px" width="30px">
+    </button>
+  </div>
+
+<!--   <h5>Enter the pixel value or your left and right margins:</h5>
+  <div class="margin-value">
+    <input id="margin-value-input" class="margin-value-input" value="0" />
+  </div> -->
+
+  <h5>Enter the gutter:</h5>
+  <div class="gutter-value">
+    <input id="gutter-value-input" class="gutter-value-input" value="20" />
+  </div>
+
+  <h5>Enter the artboard width:</h5>
+  <div class="artboard-value">
+    <input id="artboard-value-input" class="artboard-value-input" value="1240" />
+  </div>
+
+<button class="calculate"id="calculate" onclick="calculateColumns()" value="submit">Calculate</button>
+
+
+<h5>Column width:</h5>
+  <p id="column-calculated">?</p>
+
+  <h5>16x9 height:</h5>
+  <p id="16x9-calculated">?</p>
+
+<script  type="text/javascript">document.write(g_columnWidth)</script>
+<script  type="text/javascript">document.write(g_columnWidth)</script>
+
+
+
+
+<!-- <h5>How many columns are we working with? (max 4)</h5>
+<input id="columns" type="text" />
+<button onclick="columns()">Set Columns</button> -->
+
+</body>
+</html>
+
+<script src="jquery-3.2.0.min.js"></script>
+<script src="main.js"></script>
